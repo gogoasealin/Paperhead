@@ -703,14 +703,14 @@ public class GameController : MonoBehaviour {
                 platformMovingLeftInstantiate.enabled = false;
             }
 
-            if (numberOfAllGames >= 10)
-            {
-                numberOfAllGames = 0;
-                playAdd.ShowAd();
-            }else
-            {
+            //if (numberOfAllGames >= 10)
+            //{
+            //    numberOfAllGames = 0;
+            //    playAdd.ShowAd();
+            //}else
+            //{
                 GameOverWindow.SetActive(true);
-            }
+            //}
 
         }
     }

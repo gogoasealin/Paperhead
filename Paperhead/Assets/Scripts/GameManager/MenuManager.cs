@@ -12,8 +12,8 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("Main");
     }
 
-    //public void LoadOption()
-    //{
-    //    SceneManager.LoadScene("Settings");
-    //}
+    public void GoToPolicy()
+    {
+        Application.OpenURL("http://appreviewdesk.com/app/android-Traps-and-Shurikens");
+    }
 }
